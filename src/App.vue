@@ -2,8 +2,9 @@
   <div>
     <h1>hello world</h1>
     <div>
-      <span>count is {{count}}</span>
       <button @click="count++">add</button>
+      <br>
+      <span>count is {{count}} * 2 = {{double}}</span>
     </div>
   </div>
 </template>
